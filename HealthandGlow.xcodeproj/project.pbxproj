@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D28B4142217E9FF00DB06FD /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28B4132217E9FF00DB06FD /* ProductCell.swift */; };
+		8D28B4182217EF1800DB06FD /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28B4172217EF1800DB06FD /* AlertManager.swift */; };
+		8D28B41A2217EFA100DB06FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28B4192217EFA100DB06FD /* NetworkManager.swift */; };
+		8D28B41D2217F06100DB06FD /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28B41C2217F06100DB06FD /* ProductModel.swift */; };
+		8D9039AF2217E02000979CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9039AE2217E02000979CBF /* AppDelegate.swift */; };
+		8D9039B12217E02000979CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9039B02217E02000979CBF /* ViewController.swift */; };
+		8D9039B42217E02000979CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9039B22217E02000979CBF /* Main.storyboard */; };
+		8D9039B72217E02000979CBF /* HealthandGlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9039B52217E02000979CBF /* HealthandGlow.xcdatamodeld */; };
+		8D9039B92217E02200979CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9039B82217E02200979CBF /* Assets.xcassets */; };
+		8D9039BC2217E02200979CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9039BA2217E02200979CBF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D28B4132217E9FF00DB06FD /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8D28B4172217EF1800DB06FD /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		8D28B4192217EFA100DB06FD /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8D28B41C2217F06100DB06FD /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		8D9039AB2217E02000979CBF /* HealthandGlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthandGlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9039AE2217E02000979CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D9039B02217E02000979CBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D9039B32217E02000979CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D9039B62217E02000979CBF /* HealthandGlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthandGlow.xcdatamodel; sourceTree = "<group>"; };
+		8D9039B82217E02200979CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D9039BB2217E02200979CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D9039BD2217E02200979CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D9039A82217E02000979CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D28B4152217ED3300DB06FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D28B41C2217F06100DB06FD /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D28B4162217ED4E00DB06FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D28B41E22180C0B00DB06FD /* Tableview cell */,
+				8D9039B02217E02000979CBF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D28B41E22180C0B00DB06FD /* Tableview cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D28B4132217E9FF00DB06FD /* ProductCell.swift */,
+			);
+			path = "Tableview cell";
+			sourceTree = "<group>";
+		};
+		8D28B41F22180C2400DB06FD /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				8D28B4172217EF1800DB06FD /* AlertManager.swift */,
+				8D28B4192217EFA100DB06FD /* NetworkManager.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		8D9039A22217E02000979CBF = {
+			isa = PBXGroup;
+			children = (
+				8D9039AD2217E02000979CBF /* HealthandGlow */,
+				8D9039AC2217E02000979CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D9039AC2217E02000979CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D9039AB2217E02000979CBF /* HealthandGlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D9039AD2217E02000979CBF /* HealthandGlow */ = {
+			isa = PBXGroup;
+			children = (
+				8D28B41F22180C2400DB06FD /* Misc */,
+				8D28B4162217ED4E00DB06FD /* Controller */,
+				8D28B4152217ED3300DB06FD /* Model */,
+				8D9039C32217E0A900979CBF /* View */,
+				8D9039AE2217E02000979CBF /* AppDelegate.swift */,
+				8D9039B82217E02200979CBF /* Assets.xcassets */,
+				8D9039BD2217E02200979CBF /* Info.plist */,
+				8D9039B52217E02000979CBF /* HealthandGlow.xcdatamodeld */,
+			);
+			path = HealthandGlow;
+			sourceTree = "<group>";
+		};
+		8D9039C32217E0A900979CBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D9039B22217E02000979CBF /* Main.storyboard */,
+				8D9039BA2217E02200979CBF /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D9039AA2217E02000979CBF /* HealthandGlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9039C02217E02200979CBF /* Build configuration list for PBXNativeTarget "HealthandGlow" */;
+			buildPhases = (
+				8D9039A72217E02000979CBF /* Sources */,
+				8D9039A82217E02000979CBF /* Frameworks */,
+				8D9039A92217E02000979CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthandGlow;
+			productName = HealthandGlow;
+			productReference = 8D9039AB2217E02000979CBF /* HealthandGlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D9039A32217E02000979CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					8D9039AA2217E02000979CBF = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 8D9039A62217E02000979CBF /* Build configuration list for PBXProject "HealthandGlow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D9039A22217E02000979CBF;
+			productRefGroup = 8D9039AC2217E02000979CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D9039AA2217E02000979CBF /* HealthandGlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D9039A92217E02000979CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9039BC2217E02200979CBF /* LaunchScreen.storyboard in Resources */,
+				8D9039B92217E02200979CBF /* Assets.xcassets in Resources */,
+				8D9039B42217E02000979CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D9039A72217E02000979CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D28B41A2217EFA100DB06FD /* NetworkManager.swift in Sources */,
+				8D9039B72217E02000979CBF /* HealthandGlow.xcdatamodeld in Sources */,
+				8D28B4142217E9FF00DB06FD /* ProductCell.swift in Sources */,
+				8D28B4182217EF1800DB06FD /* AlertManager.swift in Sources */,
+				8D9039B12217E02000979CBF /* ViewController.swift in Sources */,
+				8D28B41D2217F06100DB06FD /* ProductModel.swift in Sources */,
+				8D9039AF2217E02000979CBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D9039B22217E02000979CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9039B32217E02000979CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D9039BA2217E02200979CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9039BB2217E02200979CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D9039BE2217E02200979CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D9039BF2217E02200979CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D9039C12217E02200979CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HealthandGlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.HealthandGlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8D9039C22217E02200979CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HealthandGlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.HealthandGlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D9039A62217E02000979CBF /* Build configuration list for PBXProject "HealthandGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9039BE2217E02200979CBF /* Debug */,
+				8D9039BF2217E02200979CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D9039C02217E02200979CBF /* Build configuration list for PBXNativeTarget "HealthandGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9039C12217E02200979CBF /* Debug */,
+				8D9039C22217E02200979CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D9039B52217E02000979CBF /* HealthandGlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D9039B62217E02000979CBF /* HealthandGlow.xcdatamodel */,
+			);
+			currentVersion = 8D9039B62217E02000979CBF /* HealthandGlow.xcdatamodel */;
+			path = HealthandGlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D9039A32217E02000979CBF /* Project object */;
+}
