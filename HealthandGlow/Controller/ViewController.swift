@@ -128,14 +128,21 @@ extension ViewController : UICollectionViewDataSource {
         cell.layer.cornerRadius = 2
         
         let listObj = arrayOfList[indexPath.row]
-
         cell.productNameLabel.text = listObj.productName
         cell.offerLabel.text = listObj.promoText
         cell.productImageView.downloaded(from: listObj.productImageUrl!)
         
-        cell.actualPriceLabel.text = " \(listObj.actualPrice ?? 0) "
-        cell.finalPriceLabel.text = " \(listObj.finalPrice ?? 0) "
+       // cell.actualPriceLabel.text = " \(listObj.actualPrice ?? 0) "
+        cell.finalPriceLabel.text = "RS \(listObj.finalPrice ?? 0) "
         
+        
+        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: "RS \(listObj.actualPrice ?? 0) ")
+        attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 2, range: NSMakeRange(0, attributeString.length))
+
+        cell.actualPriceLabel.attributedText = attributeString
+        
+        
+
         
  
         return cell
